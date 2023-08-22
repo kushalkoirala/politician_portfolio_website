@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+}
+.btn-1 {
+  background-color: #00c6f2;
+  padding: 0.7rem;
+  font-weight: bold;
+  border-radius: 2rem;
+}
+.caro-img {
+  height: 100vh;
+}
+.header {
+  height: 100vh;
+}
+.text-area {
+  color: white;
+  font-family: "Staatliches", cursive;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.x {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 2rem;
+}
+.about {
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+}
+.text {
+  font-size: 2rem;
+}
+footer {
+  background: #1e2021;
+  color: white;
+  /*text-align: center;*/
+
+  font-size: 1.1rem;
+  text-align: center;
+  height: 40vh;
+  padding-top: 3.5rem;
+}
+.h-p {
+  font-size: 1.5rem;
+}
+.hr {
+  height: 5px;
+  width: 20%;
+  border-bottom: 10px solid blue;
+}
+.btn-2 {
+  border-radius: 30%;
+}
+.fad {
+  color: #00c6f2;
+}
+.btn-i {
+  color: #ff449f;
+}
+.btn-t {
+  color: #39a6a3;
+}
+.p-2 {
+  font-size: 1.6rem;
+}
+#more {
+  display: none;
+}
+#footer {
+  background-color: #1e2021;
+}
+@media (max-width: 600px) {
+  .img-n {
+    height: auto;
+    width: 100%;
+  }
+  .text-end {
+    font-size: 1rem;
+  }
+}
